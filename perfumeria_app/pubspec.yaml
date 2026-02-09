@@ -1,0 +1,36 @@
+name: perfumeria_app
+description: App de perfumería para Colombia
+publish_to: 'none' # Evita publicación accidental
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icons/logo.png"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/products/
+    - assets/images/icons/logo.png
+  
+  # Opcional: si quieres usar fuentes personalizadas
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: assets/fonts/your_font.ttf
